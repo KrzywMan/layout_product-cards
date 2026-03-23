@@ -1,0 +1,28 @@
+.card {
+  width: 200px;
+  box-sizing: border-box;
+  border: 1px solid $border-color;
+  font-family: $font-main;
+  display: flex;
+  flex-direction: column;
+
+  &__image {
+    max-width: 100%;
+    display: block;
+  }
+
+  &__title {
+    font-size: 14px;
+    margin: 10px 0;
+  }
+
+  &__buy-link {
+    text-decoration: none;
+    color: $color-link;
+
+    &:hover {
+      color: $color-link-hover;
+      text-decoration: underline;
+    }
+  }
+}
